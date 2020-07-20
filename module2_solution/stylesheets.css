@@ -1,0 +1,108 @@
+<style>
+		/* Base styles */
+
+		*{
+			box-sizing: border-box;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+
+		h1 {
+			margin-bottom: 20px;
+			font-size: 175%;
+			font-weight: bold; 
+			text-align: center;
+
+
+		}
+		section {
+			font-size: 125%;
+			background-color: ff0000; 
+
+		}
+		div {
+			background-color: grey;
+			border: 1px solid black;
+			position: relative;
+			margin: 3px;
+
+
+		}
+		h2 {
+			background-color: red;
+			width: 200px;
+			text-align : center;
+			border: 1px solid black;
+			position: absolute;
+			float: left;
+			top: 0px;
+			right: 0px;
+			clear:both;
+			margin: 0px;
+
+		}
+
+	p  	{
+			margin: 20px;
+			margin-top: 50px;
+
+
+
+
+	}
+	#Chicken {
+		background-color: pink;
+	}
+	#Sushi {
+		background-color: yellow;
+	}
+
+/* SIMPLE RESPONSIVE FRAMEWORK*/
+
+.row {
+	width: 100%;
+}
+
+
+/*For large devices, desktop */
+
+	@media (min-width: 992px) 
+	{
+
+		.col-lg-4 
+		{
+			width: 30%;
+			float: left;
+			margin: 3px;
+		}
+
+	}
+
+
+/*For medium devices, tablet */
+
+	@media (min-width: 768px) and (max-width: 991px) 
+	{ 
+		.col-md-6, .col-md-12
+		{
+		float: left;
+		margin: 3px;
+		}
+
+		.col-md-6 
+		{
+   				width: 48%;
+  		}
+
+  		.col-md-12 
+  		{
+  			width: 99.0%;
+  		}
+  
+	}
+  
+
+	
+
+
+		
+	</style>
